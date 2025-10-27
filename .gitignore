@@ -1,8 +1,19 @@
+# Virtual environments
 venv/
+.env/
+
+# Python cache and compiled files
 __pycache__/
 *.pyc
+
+# Data and large model files
+data/index/
+*.npy
 *.pkl
 *.pt
-*.npy
 *.dll
-data/index/
+*.h5
+
+# Logs and temporary files
+*.log
+
