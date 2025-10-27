@@ -1,13 +1,41 @@
-"venv/" 
-"__pycache__/" 
-"*.pyc" 
-"data/index/" 
-"*.npy" 
-"*.pkl" 
-"venv/" 
-"__pycache__/" 
-"data/index/" 
-"*.npy" 
-"*.pkl" 
-"*.pt" 
-"*.dll" 
+# ===========================
+# Python / Streamlit Project
+# ===========================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env
+
+# Data / model artifacts
+data/index/
+*.npy
+*.pkl
+*.pt
+*.dll
+
+# Logs and checkpoints
+*.log
+checkpoints/
+runs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
