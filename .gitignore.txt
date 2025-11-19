@@ -1,0 +1,17 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+env/
+
+# Ignore compiled and cache files
+__pycache__/
+*.pyc
+
+# Ignore model and large cache files
+*.bin
+*.pt
+*.ckpt
+
+# Ignore temporary files
+.DS_Store
+Thumbs.db
